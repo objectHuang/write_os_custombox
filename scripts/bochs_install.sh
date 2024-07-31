@@ -11,6 +11,8 @@ cd bochs_src/bochs
 ./configure --prefix=/home/vagrant/public/bochs --enable-debugger --enable-iodebug --enable-x86-debugger --with-x --with-x11
 make
 sudo make install
+sudo make unpack_dlx
+sudo make install_dlx
 cd ~
 #rm -rf bochs_src
 echo "-----------------------------------------**** End installing bochs ****----------------------------------------"
