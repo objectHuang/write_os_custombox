@@ -11,5 +11,5 @@ sudo make unpack_dlx
 sudo make install_dlx
 cd ~
 rm -rf bochs_src
-rm REL_2_8_FINAL
+rm REL_2_8_FINAL.tar.gz
 echo "-----------------------------------------**** End installing bochs ****----------------------------------------"

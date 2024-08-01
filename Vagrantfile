@@ -21,6 +21,8 @@ Vagrant.configure("2") do |config|
       vb.gui = true
     end
   end
+  config.vm.provision "shell", path: "scripts/nasm_install.sh", privileged: false
   config.vm.provision "shell", path: "scripts/bochs_install.sh", privileged: false
+  config.vm.provision "shell", path: "scripts/sasm_install.sh", privileged: false  
   
 end
